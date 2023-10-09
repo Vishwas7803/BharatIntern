@@ -1,0 +1,73 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-style:italic;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.595),rgba(0,0,0,0.595),rgba(0,0,0,0.595)), url(background.jpg);
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: #29bbdf79;
+    box-shadow: rgb(4, 163, 255) 0px 1px 3px, rgba(229, 9, 9, 0.881) 0px 1px 2px;
+}
+
+label {
+    font-size: 30px;
+    font-style: italic;
+    line-height: 78px;
+}
+
+#temp {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    border: none ;
+    outline: rgba(6, 6, 193, 0.871);
+}
+
+#temp_diff {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-style:italic;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    font-style: italic;
+    background-color: rgb(9, 224, 9);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(216, 127, 11);
+    cursor:pointer;
+}
+
+#result{
+    font-size: 30px;
+}
